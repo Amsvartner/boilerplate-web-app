@@ -6,6 +6,7 @@ It was created through `create-react-app` and contains nothing else than the bar
 * User registration and login, using **AWS Amplify**
 * **Typescript** because static typing is awesome
 * **ESLint** and **Prettier** configured
+* Test setup with [Jest](https://jestjs.io/docs/getting-started) and [Testing Library](https://testing-library.com/)
 
 ---
 ## Pre-requisites
@@ -31,13 +32,13 @@ Here are some useful additions that are not currently included. If you open this
 * `yarn add react-redux @reduxjs/toolkit` - [Redux](https://redux.js.org/introduction/getting-started)
 * `yarn add react-hook-form` - [React Hook Form](https://react-hook-form.com/get-started)
 * `yarn add react-use` - [React Use](https://github.com/streamich/react-use)
-* 
+
 
 Miscellaneous:
 * `yarn add victory @types/victory` - library for creating charts
 * `yarn add video.js` - video player library
 * `yarn add @types/video.js -D`
-* `npx storybook init`
+* `npx storybook init` - [Storybook](https://storybook.js.org/docs/react/get-started/introduction)
 
 ---
 ## Available Scripts
