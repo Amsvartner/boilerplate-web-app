@@ -1,45 +1,51 @@
 # boilerplate-web-app
-This is a boilerplate web application using React, TypeScript and AWS
+This project is a minimal boilerplate meant as a starting point for developing new web applications. 
+It was created through `create-react-app` and contains nothing else than the bare minimum to get started.
 
+### Features
+* User registration and login, using **AWS Amplify**
+* **Typescript** because static typing is awesome
+* **ESLint** and **Prettier** configured
+* **MUI** for UI components
+---
+## Pre-requisites
+* AWS CLI installed and configured
+  * https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html
+  
+* Amplify configured
+  * Run command `amplify configure` and follow the instructions to create an IAM user with programmatic access and admin privileges
+
+---
+## Getting Started
+
+You will need to initiate a new Amplify project through the AWS CLI for the authentication to work. Then you'll need to add the authentication resource to the project, and finally push your changes. Run the following commands in your terminal and follow the instructions:
+* `amplify init`
+* `amplify add auth`
+* `amplify push`
+
+Here are some useful additions that are not currently included. If you open this file in your IDE, you can run these commands by clicking on them.
+* `yarn add lodash` 
+* `yarn add @types/lodash -D`
+* `yarn add react-router-dom`
+* `yarn add react-redux`
+* `yarn add @reduxjs/toolkit`
+* `yarn add react-hook-form`
+* `yarn add react-use`
+* 
+
+Miscellaneous:
+* `yarn add victory @types/victory` - library for creating charts
+* `yarn add video.js` - video player library
+* `yarn add @types/video.js -D`
+* `npx storybook init`
+
+---
 ## Available Scripts
 
-In the project directory, you can run:
+### Standard create-react-app scripts
+* You can run `yarn start` to start the development server, `yarn test` to run the tests, and `yarn build` to build the app for production.
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Custom scripts
+* `yarn lint` will run ESLint and Prettier on the codebase and give you an error report.
+* `yarn lint:fix` will run ESLint and Prettier on the codebase and fix any errors that can be fixed automatically.
+* `yarn format` will run Prettier on the codebase and fix any errors that can be fixed automatically.
