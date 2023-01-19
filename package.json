@@ -4,9 +4,6 @@
   "private": true,
   "dependencies": {
     "@aws-amplify/ui-react": "^4.3.4",
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.11.5",
     "aws-amplify": "^5.0.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -58,7 +55,6 @@
       "^.+\\.(ts|tsx|js|jsx)$": "ts-jest"
     }
   },
-
   "browserslist": {
     "production": [
       ">0.2%",

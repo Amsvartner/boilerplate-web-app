@@ -6,7 +6,7 @@ It was created through `create-react-app` and contains nothing else than the bar
 * User registration and login, using **AWS Amplify**
 * **Typescript** because static typing is awesome
 * **ESLint** and **Prettier** configured
-* **MUI** for UI components
+
 ---
 ## Pre-requisites
 * AWS CLI installed and configured
@@ -24,13 +24,13 @@ You will need to initiate a new Amplify project through the AWS CLI for the auth
 * `amplify push`
 
 Here are some useful additions that are not currently included. If you open this file in your IDE, you can run these commands by clicking on them.
-* `yarn add lodash` 
+* `yarn add @mui/material @emotion/react @emotion/styled` - [MUI](https://mui.com/material-ui/getting-started/overview/) 
+* `yarn add lodash` - [Lodash](https://lodash.com/docs/4.17.15)
 * `yarn add @types/lodash -D`
-* `yarn add react-router-dom`
-* `yarn add react-redux`
-* `yarn add @reduxjs/toolkit`
-* `yarn add react-hook-form`
-* `yarn add react-use`
+* `yarn add react-router-dom localforage match-sorter sort-by` - [React Router](https://reactrouter.com/en/main/start/tutorial)
+* `yarn add react-redux @reduxjs/toolkit` - [Redux](https://redux.js.org/introduction/getting-started)
+* `yarn add react-hook-form` - [React Hook Form](https://react-hook-form.com/get-started)
+* `yarn add react-use` - [React Use](https://github.com/streamich/react-use)
 * 
 
 Miscellaneous:
