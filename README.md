@@ -1,14 +1,13 @@
 # boilerplate-web-app
-This project is a minimal boilerplate meant as a starting point for developing new web applications. 
-It was created through `create-react-app` and contains nothing else than the bare minimum to get started.
+This project is a minimal boilerplate meant as a starting point for developing new web applications.
+It was originally created through `create-react-app` but was later migrated to `vite` for faster development.
 
 ### Features
 * User registration and login, using **AWS Amplify**
 * MUI for user interface
 * **Typescript** because static typing is awesome
 * **ESLint** and **Prettier** configured
-* Test setup with [Jest](https://jestjs.io/docs/getting-started) and [Testing Library](https://testing-library.com/)
-
+* Test setup with [Vitest](https://vitest.dev/guide/)
 ---
 ## Pre-requisites
 * AWS CLI installed and configured
