@@ -4,6 +4,7 @@ It was created through `create-react-app` and contains nothing else than the bar
 
 ### Features
 * User registration and login, using **AWS Amplify**
+* MUI for user interface
 * **Typescript** because static typing is awesome
 * **ESLint** and **Prettier** configured
 * Test setup with [Jest](https://jestjs.io/docs/getting-started) and [Testing Library](https://testing-library.com/)
@@ -25,7 +26,6 @@ You will need to initiate a new Amplify project through the AWS CLI for the auth
 * `amplify push`
 
 Here are some useful additions that are not currently included. If you open this file in your IDE, you can run these commands by clicking on them.
-* `yarn add @mui/material @emotion/react @emotion/styled` - [MUI](https://mui.com/material-ui/getting-started/overview/) 
 * `yarn add lodash` - [Lodash](https://lodash.com/docs/4.17.15)
 * `yarn add @types/lodash -D`
 * `yarn add react-router-dom localforage match-sorter sort-by` - [React Router](https://reactrouter.com/en/main/start/tutorial)
