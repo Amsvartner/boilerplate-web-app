@@ -9,6 +9,10 @@ export default defineConfig({
     open: true,
   },
   plugins: [react(), viteTsconfigPaths(), svgrPlugin()],
+  test: {
+    global: true,
+    environment: 'happy-dom',
+  },
   optimizeDeps: {
     esbuildOptions: {
       // Node.js global to browser globalThis

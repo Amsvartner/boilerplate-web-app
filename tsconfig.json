@@ -19,5 +19,13 @@
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "./src/__test__/**",
+    "./src/__tests__/**",
+    "./src/__mock__/**",
+    "./src/__mocks__/**",
+    "./src/test-utils",
+    "./vite.config.ts"
   ]
 }
