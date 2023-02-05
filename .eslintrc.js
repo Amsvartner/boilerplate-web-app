@@ -2,7 +2,6 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    jest: true,
   },
   extends: [
     'eslint:recommended',
@@ -18,10 +17,6 @@ module.exports = {
       rules: {
         '@typescript-eslint/explicit-function-return-type': ['error'],
       },
-    },
-    {
-      files: ['__test__/**'],
-      plugins: ['jest'],
     },
   ],
   parser: '@typescript-eslint/parser',
@@ -40,7 +35,6 @@ module.exports = {
     'arrow-body-style': ['error', 'as-needed'],
     camelcase: 'error',
     curly: ['error', 'all'],
-    'jest/no-focused-tests': 'warn',
     'no-duplicate-imports': 'error',
     'no-use-before-define': 'error',
     'no-useless-return': 'error',
