@@ -2,9 +2,12 @@
 This project is a minimal boilerplate meant as a starting point for developing new web applications.
 It was originally created through `create-react-app` but was later migrated to `vite` for faster development.
 
+**It is a work in progress and will be continuously updated with new features and improvements.**
+
 ### Features
 * User registration and login, using **AWS Amplify**
-* MUI for user interface
+* Using **GraphQL** queries to connect to a **DynamoDB** database holding user data
+* **MUI** for user interface
 * **Typescript** because static typing is awesome
 * **ESLint** and **Prettier** configured
 * Test setup with [Vitest](https://vitest.dev/guide/)
@@ -24,6 +27,12 @@ You will need to initiate a new Amplify project through the AWS CLI for the auth
 * `amplify add auth`
 * `amplify push`
 
+TODO: Write more specific instructions for setting up amplify and graphQL
+
+---
+
+## Further additions
+
 Here are some useful additions that are not currently included. If you open this file in your IDE, you can run these commands by clicking on them.
 * `yarn add lodash` - [Lodash](https://lodash.com/docs/4.17.15)
 * `yarn add @types/lodash -D`
@@ -42,7 +51,7 @@ Miscellaneous:
 ---
 ## Available Scripts
 
-### Standard create-react-app scripts
+### Standard vite scripts
 * You can run `yarn start` to start the development server, `yarn test` to run the tests, and `yarn build` to build the app for production.
 
 ### Custom scripts
