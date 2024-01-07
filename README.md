@@ -16,6 +16,10 @@ It was originally created through `create-react-app` but was later migrated to `
 * AWS CLI installed and configured
   * https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html
   
+* AWS Amplify CLI installed
+  * `npm install -g @aws-amplify/cli` 
+  * `yarn global add @aws-amplify/cli`
+  
 * Amplify configured
   * Run command `amplify configure` and follow the instructions to create an IAM user with programmatic access and admin privileges
 
@@ -24,8 +28,8 @@ It was originally created through `create-react-app` but was later migrated to `
 
 You will need to initiate a new Amplify project through the AWS CLI for the authentication to work. Then you'll need to add the authentication resource to the project, and finally push your changes. Run the following commands in your terminal and follow the instructions:
 * `amplify init`
-* `amplify add auth`
-* `amplify push`
+* `amplify add auth` - choose **default configuration** and **user** as the sign-in method
+* `amplify push` - to push your changes to the cloud, enabling logging in and registering users
 
 TODO: Write more specific instructions for setting up amplify and graphQL
 
